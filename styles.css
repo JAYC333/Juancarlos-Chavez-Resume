@@ -1,0 +1,35 @@
+.rounded-images {
+  border-radius: 60%; /* Make the image circular */
+  width: 250px; /* Adjust the width as needed */
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.navbar {
+  background-color: #ddd6d6;
+  padding: 10px 0;
+  text-align: center; /* Center the navigation links horizontally */
+}
+
+.flex-container {
+  display: flex;
+}
+
+#navItems {
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 60%;
+  padding-left: 0;
+}
+
+/* Top Links: "Home, About Me, Skills, Resume, Contact" */
+.noUnderline {
+  text-decoration: none;
+  color: black;
+}
+
+.noUnderline:hover {
+  color: green; /* Change the color on hover */
+}
